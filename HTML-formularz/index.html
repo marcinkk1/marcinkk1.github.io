@@ -21,9 +21,12 @@
             <option value="Warszawa">Warszawa</option>
             <option value="Gdańsk">Gdańsk</option>
         </select> <br>
-        <input type="radio" name="choise">Mężczyzna <br>
-        <input type="radio" name="choise">Kobieta <br>
-        <input type= "checkbox" name="agreement">Wyrażam zgodę na przetwarzanie danych osobowych <br>
+        <label for="male">Mężczyzna</label><br>
+        <input type="radio" name="choise" id="male"><br>
+        <label for="female">Kobieta</label><br>
+        <input type="radio" name="choise" id="female"><br>
+        <label for="zgoda">Wyrażam zgodę na przetwarzanie danych osobowych</label><br>
+        <input type= "checkbox" name="agreement" id="zgoda"><br>
         <label for="message">Wiadomość</label> <br>
         <textarea name="message" id="message"></textarea> <br>
         <input type="submit" value="Wyślij">
