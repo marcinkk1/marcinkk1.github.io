@@ -1,0 +1,81 @@
+header,
+footer {
+    color: white;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+}
+
+
+header {
+    background-color: red;
+}
+
+footer {
+    background-color: violet;
+}
+
+main {
+    background-color: turquoise;
+    width: 60%;
+    height: 200px;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside {
+    width: 20%;
+    height: 200px;
+
+}
+
+.left {
+    background-color: green;
+    width: 20%;
+}
+
+.right {
+    background-color: pink;
+    width: 20%;
+}
+
+@media (max-width: 992px) {
+    main {
+        width: 80%;
+    }
+
+    .right {
+        width: 20%;
+    }
+
+    .left {
+        width: 100%;
+        order: 1;
+    }
+
+    footer {
+        order: 2;
+    }
+}
+
+@media (max-width: 768px) {
+    main,
+    .right,
+    .left {
+        width: 100%;
+    }
+
+    .left {
+        order: 1;
+    }
+
+    .right {
+        order: 2;
+    }
+
+
+
+}
