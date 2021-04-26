@@ -1,0 +1,9 @@
+.accordion-header {
+    background-color: rgb(250, 245, 245);
+}
+
+hr {
+    border-bottom: 0.5px solid lightgrey;
+    width: 220px;
+    opacity: 0.3;
+}
